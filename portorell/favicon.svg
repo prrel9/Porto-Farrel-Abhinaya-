@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Crimson Red Gradient matching the site's accent color -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8000a" />
+      <stop offset="100%" stop-color="#ff2020" />
+    </linearGradient>
+    
+    <!-- Smooth drop shadow for premium depth and separation -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Dark Rounded Square Container (matching deep black #0d0d0d) with Accent Border -->
+  <rect x="16" y="16" width="480" height="480" rx="128" fill="#0d0d0d" stroke="url(#grad)" stroke-width="20" />
+
+  <!-- Bold, Clean, Grid-Aligned Geometric Letter "F" in Warm White (#f0eeea) -->
+  <path d="M 150 100 H 350 V 195 H 250 V 250 H 310 V 335 H 250 V 412 H 150 Z" fill="#f0eeea" filter="url(#shadow)" />
+
+  <!-- Red Branding Dot matching [Frlabhinaya.] logo design -->
+  <circle cx="365" cy="385" r="30" fill="url(#grad)" filter="url(#shadow)" />
+</svg>
